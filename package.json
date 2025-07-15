@@ -1,0 +1,35 @@
+{
+  "name": "nft-rarity-valuation-engine",
+  "version": "1.0.0",
+  "description": "A comprehensive AI-powered platform for analyzing NFT rarity and delivering fair market valuations",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend",
+    "ml"
+  ],
+  "scripts": {
+    "install:frontend": "cd frontend && npm install",
+    "install:backend": "cd backend && npm install",
+    "install:all": "npm run install:frontend && npm run install:backend",
+    "dev:frontend": "cd frontend && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "cd backend && npm run build",
+    "build": "npm run build:frontend && npm run build:backend"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "nft",
+    "rarity",
+    "valuation",
+    "blockchain",
+    "ai",
+    "machine-learning"
+  ],
+  "author": "NFT Valuation Engine Team",
+  "license": "MIT"
+}
