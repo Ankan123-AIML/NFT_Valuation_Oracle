@@ -1,0 +1,12 @@
+{
+  "name": "nft-rarity-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "echo 'Frontend development server would start here'",
+    "build": "echo 'Frontend build would happen here'",
+    "test": "echo 'Frontend tests would run here'"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

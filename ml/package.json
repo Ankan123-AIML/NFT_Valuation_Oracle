@@ -1,0 +1,12 @@
+{
+  "name": "nft-rarity-ml",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "train": "echo 'ML model training would happen here'",
+    "predict": "echo 'ML predictions would run here'",
+    "test": "echo 'ML tests would run here'"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
